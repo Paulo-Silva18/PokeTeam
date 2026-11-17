@@ -7,8 +7,8 @@ Aplicativo Android nativo (Kotlin + Jetpack Compose) para explorar a Pokédex, f
 
 | | |
 |---|---|
-| 🎨 Protótipo no Figma | **[COLE AQUI O LINK DO FIGMA]** |
-| 🎥 Vídeo demonstrativo | **[COLE AQUI O LINK DO VÍDEO]** |
+| 🎨 Protótipo no Figma | **https://www.figma.com/design/QzJfXxNifGYmGGKYzhbJAC/Untitled?node-id=0-1&t=sRaGRbL2PCuRSwhR-1** |
+| 🎥 Vídeo demonstrativo | **https://youtu.be/241C7-lWZN0** |
 
 ---
 
@@ -148,23 +148,7 @@ app/src/main/java/com/paulohenrique/poketeam/
 
 > O arquivo `google-services.json` está no `.gitignore`. Se o professor precisar executar com o seu projeto Firebase, envie o arquivo separadamente (ou remova a linha do `.gitignore` antes do commit).
 
-## 6. Capturas de tela
-
-> Salve os prints em `docs/screenshots/` com estes nomes e eles aparecem aqui.
-
-| Login | Cadastro | Recuperar senha |
-|:--:|:--:|:--:|
-| ![Login](docs/screenshots/01-login.png) | ![Cadastro](docs/screenshots/02-cadastro.png) | ![Recuperar](docs/screenshots/03-recuperar.png) |
-
-| Pokédex | Busca | Detalhe |
-|:--:|:--:|:--:|
-| ![Pokédex](docs/screenshots/04-pokedex.png) | ![Busca](docs/screenshots/05-busca.png) | ![Detalhe](docs/screenshots/06-detalhe.png) |
-
-| Favoritos | Meu time |
-|:--:|:--:|
-| ![Favoritos](docs/screenshots/07-favoritos.png) | ![Time](docs/screenshots/08-time.png) |
-
-## 7. Atendimento aos requisitos da prova
+## 6. Atendimento aos requisitos da prova
 
 | Requisito | Onde está |
 |---|---|
@@ -176,13 +160,13 @@ app/src/main/java/com/paulohenrique/poketeam/
 | Consumo de API REST | `PokeApiService` (PokéAPI) |
 | README, Figma e vídeo | Este arquivo (links no topo) |
 
-## 8. Melhorias futuras
+## 7. Melhorias futuras
 
 - Favoritos/time por usuário (colunas `userId`) e sincronização com Cloud Firestore.
 - Filtro por tipo e geração; comparação de Pokémon; análise de fraquezas do time.
 - Testes unitários dos ViewModels e testes de UI com Compose.
 - Hilt para injeção de dependência.
 
-## 9. Créditos
+## 8. Créditos
 
 Dados e imagens: [PokéAPI](https://pokeapi.co/) e [PokeAPI/sprites](https://github.com/PokeAPI/sprites). Pokémon e seus nomes pertencem à Nintendo / Game Freak / The Pokémon Company; este é um projeto acadêmico sem fins lucrativos.
