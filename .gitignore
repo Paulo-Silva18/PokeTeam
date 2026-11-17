@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+# Segredo do Firebase: cada pessoa baixa o seu no console
+# (se o professor precisar rodar, remova esta linha ou envie por fora)
+/app/google-services.json
